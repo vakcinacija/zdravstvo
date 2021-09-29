@@ -1,6 +1,4 @@
 $(function () {
-    console.log("ready!");
-    debugger
     let url = window.location.href;
     let extraUrl = url.split('?')[1];
 
