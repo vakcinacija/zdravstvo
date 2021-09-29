@@ -1,0 +1,45 @@
+.font-sans-serif {
+    font-family: sans-serif;
+}
+.green-background {
+    background-color: #3fb775;
+    height: 92%;
+}
+
+.white-background {
+    background-color: #ffffff;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 50%;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-6 {
+    margin-top: 6px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.green-color-font {
+    color: #14753f;
+}
+
+.white-color-font {
+    color: #ffffff;
+}
+.font-size-20 {
+    font-size: 20px;
+}
