@@ -10,8 +10,8 @@ $(function () {
         let lastName = extraUrl.split('.')[1].toUpperCase();
 
         if (firstName && lastName) {
-            fNameEl.html(firstName + " / " + latcyr(firstName));
-            lNameEl.html(lastName + " / " + latcyr(lastName));
+            fNameEl.html(latcyr(firstName) + " / " + firstName);
+            lNameEl.html(latcyr(lastName) + " / " + lastName);
         }
     }
 });
