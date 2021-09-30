@@ -1,6 +1,7 @@
 .font-sans-serif {
     font-family: sans-serif;
 }
+
 .green-background {
     background-color: #3fb775;
     height: 92%;
@@ -21,6 +22,7 @@
 .margin-top-50 {
     margin-top: 50px;
 }
+
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -44,6 +46,49 @@
 .white-color-font {
     color: #ffffff;
 }
+
 .font-size-20 {
     font-size: 20px;
 }
+
+/* Media query */
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .moj-termin-logo-image {
+        width: 50px;
+    }
+    .font-size-40 {
+        font-size: 18px;
+    }
+    .white-background {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-bottom: 165px;
+    }
+    .green-color-font {
+        font-size: 8px;
+    }
+    .white-color-font {
+        font-size: 14px;
+    }
+    .margin-top-50 {
+        margin-top: 20px;
+    }
+    .margin-top-20 {
+        margin-top: 0px;
+    }
+    .margin-top-6 {
+        margin-top: 0px;
+    }
+    .unique-code {
+        padding-bottom: 110px;
+    }
+    .sec-text {
+        font-size: 7px !important;
+        padding-top: 6px !important;
+    }
+}
+
+/* End of Media query */
